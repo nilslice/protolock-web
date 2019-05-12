@@ -1,0 +1,117 @@
+html {
+	border: solid 20px #ebebe4;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+input[type="range"] {
+	height: 0;
+}
+
+button {
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+#page {
+	padding: 0px 20px;
+	max-width: 1024px;
+	margin: auto;
+}
+
+label {
+	background: darkcyan;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+}
+
+textarea {
+	display: block;
+	width: 100%;	
+	margin: auto;
+	min-height: 250px;
+	background-color: #ebebe4;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 700;
+	color: #555;
+}
+
+textarea:disabled {
+	cursor: not-allowed;
+	background-color: #ebebe4;
+}
+
+h3 {
+	margin-top: 60px;
+}
+
+h3:first-of-type {
+	margin-top: 10px;
+}
+
+a {
+	font-weight: bold;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+li {
+	font-size: 16px;
+}
+
+.report {
+	margin-bottom: 60px;
+}
